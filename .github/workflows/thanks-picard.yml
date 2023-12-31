@@ -1,9 +1,0 @@
-name: thanks-picard 
-on: push
-jobs:
-  thanks-picard-job:
-  runs-on: ubunto-latest
-  steps:
-    - name: Check out repository code
-      uses: actions/checkout@v3
-    - run: echo "$(cat thanks_picard.txt)"
